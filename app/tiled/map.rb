@@ -38,7 +38,7 @@ module Tiled
 
                     scale = 3
 
-                    args.outputs.sprites << {
+                    args.outputs.static_sprites << {
                         x: x * tileset.tile_width * scale,
                         # bottom left is 0,0 for some reason
                         y: (720 - 48) - (y * tileset.tile_height * scale),
