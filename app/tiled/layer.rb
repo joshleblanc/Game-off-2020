@@ -11,8 +11,8 @@ module Tiled
             @visible = visible
             @width = width
             @height = height
-            @x = x
-            @y = y
+            @x = 16
+            @y = 16
             @data = data
         end
 
